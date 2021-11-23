@@ -17,7 +17,7 @@ cocoapods安装
 ===
 Podfile 文件 添加 
 ```Object-C
-source 'https://github.com/MenaceiOS/WMSpecs.git'，
+source 'https://github.com/MenaceiOS/WMSpecs.git'
 pod 'WMRoute'
 ```
 
