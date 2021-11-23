@@ -1,29 +1,38 @@
-# WMRoute
+WMRoute
+=========
 
-[![CI Status](https://img.shields.io/travis/Menace/WMRoute.svg?style=flat)](https://travis-ci.org/Menace/WMRoute)
-[![Version](https://img.shields.io/cocoapods/v/WMRoute.svg?style=flat)](https://cocoapods.org/pods/WMRoute)
-[![License](https://img.shields.io/cocoapods/l/WMRoute.svg?style=flat)](https://cocoapods.org/pods/WMRoute)
-[![Platform](https://img.shields.io/cocoapods/p/WMRoute.svg?style=flat)](https://cocoapods.org/pods/WMRoute)
+一个高效、灵活、简单的iOS跳转路由
 
-## Example
+为什么要在造一个轮子？
+===========
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+已经有很多款不错的 Route 了，但都不是很满足需求。
+有的不够高效，有的需要进行注册。很繁琐，于是就有了 WMRoute。
 
-## Requirements
+安装
+=========
 
-## Installation
+下载 Demo，把 WMRoute 文件拷贝到工程即可
 
-WMRoute is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+使用教程
+========
 
-```ruby
-pod 'WMRoute'
+声明 Controller 比注册简单， 就一句话，而且在主工程看不见代码
+-----------
+
+```Object-C
+//代码创建 viewController
+#define URL_TestAViewController @"code://TestAViewController"
+
+//storyboard 创建 viewController
+#define URL_TestBViewController          @"sb://Main/TestBViewController"
 ```
 
-## Author
+在需要跳转处实现
+----------
+```Object-C
+[[WMRoute route]pushWithURLString:URL_TestAViewController param:nil animated:YES];
 
-Menace, wm694101751@163.com
-
-## License
-
-WMRoute is available under the MIT license. See the LICENSE file for more info.
+[[WMRoute route]presentWithURLString:URL_TestBViewController param:@{@"textId":@"33333"} animated:YES completion:nil];
+```
+传参直接在 param 中携带 即可。
