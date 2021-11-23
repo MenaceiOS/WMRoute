@@ -1,5 +1,5 @@
 PODS:
-  - WMRoute (0.1.0)
+  - WMRoute (1.1)
 
 DEPENDENCIES:
   - WMRoute (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WMRoute: aa070791825d4e924cf356a2609adfbe3202c60f
+  WMRoute: c7d5595efe6a21fdd928f3c53ee7146fa10a957e
 
 PODFILE CHECKSUM: 267301ed852f75d922da5f8da08b90977f6a2efd
 

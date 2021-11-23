@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0146E6F5B16C9E5AC69B6A55EF9CAB2F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7C3706AE3C52A9D8DEFDD7F0D48092 /* ReplaceMe.m */; };
 		0D876A29718DE66225A5E79A1AA8285E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0E6F089C1F463F78C75B04A00504855F /* WMRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D63603A4129092054F740D61A7D9F39 /* WMRoute-dummy.m */; };
-		32DA18BD49F78C19469D84C8B663B133 /* WMRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3ADE848695920A64DAD78C27009C92 /* WMRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		362D5F16E5AC2856D0A3AF5169F0E7B5 /* UIViewController+Marked.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D46631D88B5C2AFEF571BC187B9970 /* UIViewController+Marked.m */; };
+		0EE398E35D1FDE4D567627E3FB18AFA0 /* UIViewController+Marked.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0117CF1BF08E78CC373C6F141A3674 /* UIViewController+Marked.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8EDED897B81D077D5346F5592A99E0 /* WMRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2FF84A990C7821F2225271592EEB56 /* WMRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237E2A70F6D4FB110138216FEB99B73D /* NSString+UILink.m in Sources */ = {isa = PBXBuildFile; fileRef = 147610BEF22F0E578D55E4F847F192B9 /* NSString+UILink.m */; };
+		2F61A1F85997813F3333FF681B806856 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 377548DADACE81780EE1DCF2CC71A2DC /* ReplaceMe.m */; };
+		44038E99DEEC1B697A01C2E443B08CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		47C3948723DFCBA776F9DEFBF42626EC /* NSString+UILink.h in Headers */ = {isa = PBXBuildFile; fileRef = 4386EFC5312694A1B52038EAFF334BAA /* NSString+UILink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4998C14051E3E297B791C43CF746B51E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4E83794897B40F8074088290513880FE /* Pods-WMRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 609790CD3DB12FE26CF205F74AFA67DC /* Pods-WMRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59470EB08980C5282BDCF079A9B34072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		646E3A6B7CF11C75B612962C9273DFAD /* AAPLCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DAD13F948210E714E1822C0F5EA3D3 /* AAPLCustomPresentationController.m */; };
-		69E4568DC7ED58EE4FC09AF3A2D2692F /* AAPLCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A510B6C00D3157B7CBABC057ABE4B1DE /* AAPLCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D1A97CCAF60993EDC120CBCD04CF46 /* NSString+UILink.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95E50E306CD27BC9CCDE35125A4294 /* NSString+UILink.m */; };
-		793D1D529D6445277A8D0BE3F9A01E07 /* NSString+UILink.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1AAEC2B29DA5621909647AA376FF9 /* NSString+UILink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8165EFE3D467A219AC84CA35F9593F6C /* WMRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF8010ECD2A7F911D1DF9398F10F1A /* WMRoute.m */; };
-		8AB531519D4357C340FE7FE1AE63D29E /* UIViewController+Marked.h in Headers */ = {isa = PBXBuildFile; fileRef = 88276B5398C84BD06AAC3382315D63FD /* UIViewController+Marked.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72130FC0ECB597E58E812AB8C019A257 /* UIViewController+Marked.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A759187FF52BECF57E9C448B359E706 /* UIViewController+Marked.m */; };
+		7F0F84909DF658FACF06907114A9CA86 /* WMRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3FA010C8C33A36AA0185D46DD52B0A /* WMRoute.m */; };
+		8FDB6900AD3184C2BF05F5D2C1F73E9C /* AAPLCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FDB8356715AA4C2088B1620A817405 /* AAPLCustomPresentationController.m */; };
+		984722DBF2D3A36DB6C147A0D4C6AE5D /* WMRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984D93C02DFA70D92E19B75D29E2F69 /* WMRoute-dummy.m */; };
 		C105704EBAE083887807ED58858685C6 /* Pods-WMRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41E7D3795D92B6D96D9983004743BAF /* Pods-WMRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C157DAC4C0B4844C69C1D7CA57B98490 /* WMRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = C485001DAE20D7CB86CB691D10649B1F /* WMRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF6472833CCC14AAE885E6C685AEDAFB /* WMRouteUrlDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E36E57D5565B9F5BB324FCEB70B70F00 /* WMRouteUrlDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F972BBE1AA18F5D33D38D3D1CC634C /* WMRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 777F4C236F451926349C600C75190E69 /* WMRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE2BBE026D2C7988F4507156F4077430 /* Pods-WMRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0668479C30FC212CA0C4CC2FA7D60EC2 /* Pods-WMRoute_Example-dummy.m */; };
 		E731D116A5CF9A5BFD399E32C8734AF9 /* Pods-WMRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBD024832A7F1CA4F506EFF135011A /* Pods-WMRoute_Tests-dummy.m */; };
+		F7E15A714D958FEEB25B429CFAF4B654 /* AAPLCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F4CF2F6B407F95D24BB3987D00E1CA /* AAPLCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A834D40239491C276C5C0883A27EE478 /* PBXContainerItemProxy */ = {
+		0C973DF08C8CBA9B6F3FC3695D3D3D17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7220805EB332F8711ABBAC3472F23DE6;
 			remoteInfo = "Pods-WMRoute_Example";
 		};
-		C065EB0AF956343C0D8D24834EFBBC65 /* PBXContainerItemProxy */ = {
+		432F1B6E816C5B06A026F52A89649AF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,47 +45,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0286A131E8C89587F221249CC1A2B2ED /* WMRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMRoute.debug.xcconfig; sourceTree = "<group>"; };
 		04CD276206D5DDFCD1E18B298727FC00 /* Pods-WMRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMRoute_Tests.modulemap"; sourceTree = "<group>"; };
 		0668479C30FC212CA0C4CC2FA7D60EC2 /* Pods-WMRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMRoute_Example-dummy.m"; sourceTree = "<group>"; };
-		0A91FC4EB3B454FCAF177C73A4C34EBA /* WMRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMRoute.release.xcconfig; sourceTree = "<group>"; };
-		0A997956DA8016D949FDEADCDB99531C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C6DC1F8AC7C2B820533153CC5E0633C /* WMRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMRoute-prefix.pch"; sourceTree = "<group>"; };
 		0DF233CAE24DB73611D38EE719D1732E /* Pods-WMRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		117DC199A0B02C5873CBC008ECC37E96 /* Pods-WMRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34D46631D88B5C2AFEF571BC187B9970 /* UIViewController+Marked.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Marked.m"; sourceTree = "<group>"; };
+		12F4CF2F6B407F95D24BB3987D00E1CA /* AAPLCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPLCustomPresentationController.h; sourceTree = "<group>"; };
+		147610BEF22F0E578D55E4F847F192B9 /* NSString+UILink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+UILink.m"; sourceTree = "<group>"; };
+		18349C21C8C951BEBEE38109182753D5 /* WMRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMRoute.release.xcconfig; sourceTree = "<group>"; };
+		1898AA60CAA2DFC0268AA468A768F7D4 /* WMRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WMRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19FDB8356715AA4C2088B1620A817405 /* AAPLCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAPLCustomPresentationController.m; sourceTree = "<group>"; };
+		1A759187FF52BECF57E9C448B359E706 /* UIViewController+Marked.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Marked.m"; sourceTree = "<group>"; };
+		3132832E5C1CF679D296DEEE196F6C24 /* WMRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMRoute.debug.xcconfig; sourceTree = "<group>"; };
+		377548DADACE81780EE1DCF2CC71A2DC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WMRoute/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3C2FF84A990C7821F2225271592EEB56 /* WMRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMRoute-umbrella.h"; sourceTree = "<group>"; };
+		4386EFC5312694A1B52038EAFF334BAA /* NSString+UILink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+UILink.h"; sourceTree = "<group>"; };
 		4B01C43A5C2C11A9EF5DEDC8DB7439BC /* Pods-WMRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4D3ADE848695920A64DAD78C27009C92 /* WMRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMRoute-umbrella.h"; sourceTree = "<group>"; };
-		4D63603A4129092054F740D61A7D9F39 /* WMRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMRoute-dummy.m"; sourceTree = "<group>"; };
-		4EDE4CDFDA525E0CC16CD42A760227B6 /* WMRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMRoute-prefix.pch"; sourceTree = "<group>"; };
-		5E939FBE91110DC7C7E72F4151C62993 /* WMRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WMRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		609790CD3DB12FE26CF205F74AFA67DC /* Pods-WMRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
 		61A0FCFC865F99B494D1C023D050E120 /* Pods-WMRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66382DE8A1E25DE72BD65598ADAFB360 /* Pods-WMRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2456CC54C4E737A4330CBD387FF9DD /* WMRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMRoute.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		777F4C236F451926349C600C75190E69 /* WMRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WMRoute.h; sourceTree = "<group>"; };
+		7984D93C02DFA70D92E19B75D29E2F69 /* WMRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMRoute-dummy.m"; sourceTree = "<group>"; };
 		7AE4830F71CEF8656CB40A301CACA39B /* WMRoute */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMRoute; path = WMRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88276B5398C84BD06AAC3382315D63FD /* UIViewController+Marked.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Marked.h"; sourceTree = "<group>"; };
+		7F3FA010C8C33A36AA0185D46DD52B0A /* WMRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMRoute.m; sourceTree = "<group>"; };
+		920A7C8ABFE45FF99428E9E7E5F963F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9BFC05C871FC5302588778884CF98A87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9CBBD024832A7F1CA4F506EFF135011A /* Pods-WMRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMRoute_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A510B6C00D3157B7CBABC057ABE4B1DE /* AAPLCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPLCustomPresentationController.h; sourceTree = "<group>"; };
+		A46714598D7B08702C28B33E2AFC1E45 /* WMRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WMRoute-Info.plist"; sourceTree = "<group>"; };
 		A68523B10400A24D02552EFD37845E7E /* Pods-WMRoute_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMRoute_Tests-Info.plist"; sourceTree = "<group>"; };
 		B429A62D92D7397378FF9382F2916FEF /* Pods-WMRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMRoute_Example.modulemap"; sourceTree = "<group>"; };
 		B6542BE09F095B923BA314363C0F4522 /* Pods-WMRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD18C259164D17C70B6A0D1407621F90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BDC1AAEC2B29DA5621909647AA376FF9 /* NSString+UILink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+UILink.h"; sourceTree = "<group>"; };
 		C2353839F9C1D8060F30C96D228FB054 /* Pods-WMRoute_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMRoute_Example-Info.plist"; sourceTree = "<group>"; };
 		C41E7D3795D92B6D96D9983004743BAF /* Pods-WMRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMRoute_Example-umbrella.h"; sourceTree = "<group>"; };
-		C485001DAE20D7CB86CB691D10649B1F /* WMRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WMRoute.h; sourceTree = "<group>"; };
-		CC2C567A9ABCBC03733DCCC6343559E7 /* WMRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMRoute.modulemap; sourceTree = "<group>"; };
-		D8DF90F7A31120DA79369B6B9897AC90 /* WMRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WMRoute-Info.plist"; sourceTree = "<group>"; };
 		DB350F4F7353A8DCAD632FB1ECBC98C9 /* Pods-WMRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E0F1946778F79EC652E04C116D36E05F /* Pods-WMRoute_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WMRoute_Tests"; path = Pods_WMRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36E57D5565B9F5BB324FCEB70B70F00 /* WMRouteUrlDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WMRouteUrlDefine.h; sourceTree = "<group>"; };
 		EA270DFA34146719F1B6B5CC6A46616B /* Pods-WMRoute_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WMRoute_Example"; path = Pods_WMRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA95E50E306CD27BC9CCDE35125A4294 /* NSString+UILink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+UILink.m"; sourceTree = "<group>"; };
 		EACF47B7FD0AA43625492E9DBFDFE123 /* Pods-WMRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0DAD13F948210E714E1822C0F5EA3D3 /* AAPLCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAPLCustomPresentationController.m; sourceTree = "<group>"; };
-		F7AF8010ECD2A7F911D1DF9398F10F1A /* WMRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WMRoute.m; sourceTree = "<group>"; };
-		FC7C3706AE3C52A9D8DEFDD7F0D48092 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WMRoute/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ED0117CF1BF08E78CC373C6F141A3674 /* UIViewController+Marked.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Marked.h"; sourceTree = "<group>"; };
 		FCD004A90422704E2962BD48E2565257 /* Pods-WMRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,19 +97,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7573657EDEDA1FD59BE8335FDFF8E3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59470EB08980C5282BDCF079A9B34072 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2E822BEF05C054CA74E3703BCB667A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D876A29718DE66225A5E79A1AA8285E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EA426DCD2F2F439F183F95D70F5690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44038E99DEEC1B697A01C2E443B08CF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,24 +119,9 @@
 		10AFF8C9C1805677CC9EAB15D3B3A51D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9E545671C703685543FDC30D58D0EF8 /* WMRoute */,
+				CB77BDB208A5902C3ABD53B1CECD43DB /* WMRoute */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		137E5CE9A001560FE0390F81790F402A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC2C567A9ABCBC03733DCCC6343559E7 /* WMRoute.modulemap */,
-				4D63603A4129092054F740D61A7D9F39 /* WMRoute-dummy.m */,
-				D8DF90F7A31120DA79369B6B9897AC90 /* WMRoute-Info.plist */,
-				4EDE4CDFDA525E0CC16CD42A760227B6 /* WMRoute-prefix.pch */,
-				4D3ADE848695920A64DAD78C27009C92 /* WMRoute-umbrella.h */,
-				0286A131E8C89587F221249CC1A2B2ED /* WMRoute.debug.xcconfig */,
-				0A91FC4EB3B454FCAF177C73A4C34EBA /* WMRoute.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WMRoute";
 			sourceTree = "<group>";
 		};
 		16E7D8F04B15CD2D41419F684D67241C /* Targets Support Files */ = {
@@ -167,16 +150,6 @@
 			path = "Target Support Files/Pods-WMRoute_Example";
 			sourceTree = "<group>";
 		};
-		30DF97B93D0A4907458F37AFCF54DD97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD18C259164D17C70B6A0D1407621F90 /* LICENSE */,
-				0A997956DA8016D949FDEADCDB99531C /* README.md */,
-				5E939FBE91110DC7C7E72F4151C62993 /* WMRoute.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		51E2F46C045E79DE32F1986D601FDD94 /* Pods-WMRoute_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +174,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		877D021E38BD53F1E3D9EB7DDBAC56EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C2456CC54C4E737A4330CBD387FF9DD /* WMRoute.modulemap */,
+				7984D93C02DFA70D92E19B75D29E2F69 /* WMRoute-dummy.m */,
+				A46714598D7B08702C28B33E2AFC1E45 /* WMRoute-Info.plist */,
+				0C6DC1F8AC7C2B820533153CC5E0633C /* WMRoute-prefix.pch */,
+				3C2FF84A990C7821F2225271592EEB56 /* WMRoute-umbrella.h */,
+				3132832E5C1CF679D296DEEE196F6C24 /* WMRoute.debug.xcconfig */,
+				18349C21C8C951BEBEE38109182753D5 /* WMRoute.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WMRoute";
+			sourceTree = "<group>";
+		};
+		934D174FA89D0C690758BA5ECC3AE6BA /* WMRoute */ = {
+			isa = PBXGroup;
+			children = (
+				12F4CF2F6B407F95D24BB3987D00E1CA /* AAPLCustomPresentationController.h */,
+				19FDB8356715AA4C2088B1620A817405 /* AAPLCustomPresentationController.m */,
+				4386EFC5312694A1B52038EAFF334BAA /* NSString+UILink.h */,
+				147610BEF22F0E578D55E4F847F192B9 /* NSString+UILink.m */,
+				ED0117CF1BF08E78CC373C6F141A3674 /* UIViewController+Marked.h */,
+				1A759187FF52BECF57E9C448B359E706 /* UIViewController+Marked.m */,
+				777F4C236F451926349C600C75190E69 /* WMRoute.h */,
+				7F3FA010C8C33A36AA0185D46DD52B0A /* WMRoute.m */,
+			);
+			name = WMRoute;
+			path = WMRoute/Classes/WMRoute;
+			sourceTree = "<group>";
+		};
+		B08282C91FF2FAFEF6C4B8CC4CD520F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC05C871FC5302588778884CF98A87 /* LICENSE */,
+				920A7C8ABFE45FF99428E9E7E5F963F0 /* README.md */,
+				1898AA60CAA2DFC0268AA468A768F7D4 /* WMRoute.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C58492E2C66E5B072F8853F25AEE28EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,13 +225,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9E545671C703685543FDC30D58D0EF8 /* WMRoute */ = {
+		CB77BDB208A5902C3ABD53B1CECD43DB /* WMRoute */ = {
 			isa = PBXGroup;
 			children = (
-				FC7C3706AE3C52A9D8DEFDD7F0D48092 /* ReplaceMe.m */,
-				30DF97B93D0A4907458F37AFCF54DD97 /* Pod */,
-				137E5CE9A001560FE0390F81790F402A /* Support Files */,
-				D2775F249F713183EA41FBEAB423CB94 /* WMRoute */,
+				377548DADACE81780EE1DCF2CC71A2DC /* ReplaceMe.m */,
+				B08282C91FF2FAFEF6C4B8CC4CD520F6 /* Pod */,
+				877D021E38BD53F1E3D9EB7DDBAC56EC /* Support Files */,
+				934D174FA89D0C690758BA5ECC3AE6BA /* WMRoute */,
 			);
 			name = WMRoute;
 			path = ../..;
@@ -242,23 +256,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2775F249F713183EA41FBEAB423CB94 /* WMRoute */ = {
-			isa = PBXGroup;
-			children = (
-				A510B6C00D3157B7CBABC057ABE4B1DE /* AAPLCustomPresentationController.h */,
-				F0DAD13F948210E714E1822C0F5EA3D3 /* AAPLCustomPresentationController.m */,
-				BDC1AAEC2B29DA5621909647AA376FF9 /* NSString+UILink.h */,
-				EA95E50E306CD27BC9CCDE35125A4294 /* NSString+UILink.m */,
-				88276B5398C84BD06AAC3382315D63FD /* UIViewController+Marked.h */,
-				34D46631D88B5C2AFEF571BC187B9970 /* UIViewController+Marked.m */,
-				C485001DAE20D7CB86CB691D10649B1F /* WMRoute.h */,
-				F7AF8010ECD2A7F911D1DF9398F10F1A /* WMRoute.m */,
-				E36E57D5565B9F5BB324FCEB70B70F00 /* WMRouteUrlDefine.h */,
-			);
-			name = WMRoute;
-			path = WMRoute/Classes/WMRoute;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -270,24 +267,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78E3527BB577CAB91497CA7D6899E3CA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E4568DC7ED58EE4FC09AF3A2D2692F /* AAPLCustomPresentationController.h in Headers */,
-				793D1D529D6445277A8D0BE3F9A01E07 /* NSString+UILink.h in Headers */,
-				8AB531519D4357C340FE7FE1AE63D29E /* UIViewController+Marked.h in Headers */,
-				C157DAC4C0B4844C69C1D7CA57B98490 /* WMRoute.h in Headers */,
-				32DA18BD49F78C19469D84C8B663B133 /* WMRoute-umbrella.h in Headers */,
-				CF6472833CCC14AAE885E6C685AEDAFB /* WMRouteUrlDefine.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E9BE90287F6889B172AC27B891D534C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C105704EBAE083887807ED58858685C6 /* Pods-WMRoute_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7955FC003D9E3B36AACC2E9D962148 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E15A714D958FEEB25B429CFAF4B654 /* AAPLCustomPresentationController.h in Headers */,
+				47C3948723DFCBA776F9DEFBF42626EC /* NSString+UILink.h in Headers */,
+				0EE398E35D1FDE4D567627E3FB18AFA0 /* UIViewController+Marked.h in Headers */,
+				D8F972BBE1AA18F5D33D38D3D1CC634C /* WMRoute.h in Headers */,
+				1E8EDED897B81D077D5346F5592A99E0 /* WMRoute-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FDA3F5AAA0434125CAF1A17D5DDABA7C /* PBXTargetDependency */,
+				5D96E828BB9662D34D373B758395C89D /* PBXTargetDependency */,
 			);
 			name = "Pods-WMRoute_Tests";
 			productName = Pods_WMRoute_Tests;
@@ -315,12 +311,12 @@
 		};
 		32F567C1E0412B570AE4D8FD740C13DF /* WMRoute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D09B5E0F9F29ECBCA63A245309DBFA9 /* Build configuration list for PBXNativeTarget "WMRoute" */;
+			buildConfigurationList = 56ED22CBCC1D6012B90E662359794ACC /* Build configuration list for PBXNativeTarget "WMRoute" */;
 			buildPhases = (
-				78E3527BB577CAB91497CA7D6899E3CA /* Headers */,
-				1594CA836F45E3D89C51DA4EDB308A38 /* Sources */,
-				B7573657EDEDA1FD59BE8335FDFF8E3A /* Frameworks */,
-				923F9385F10746F1C4F2E16226D0D619 /* Resources */,
+				ED7955FC003D9E3B36AACC2E9D962148 /* Headers */,
+				925319258D230BBEB40C77AEE84AB64F /* Sources */,
+				E5EA426DCD2F2F439F183F95D70F5690 /* Frameworks */,
+				C7AD1204BD21AD0F06B2B1BE305928D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +339,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BB6BE4630372EB73799003CC85AC202D /* PBXTargetDependency */,
+				E867590151AAF6032379A71C2BC3C8D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-WMRoute_Example";
 			productName = Pods_WMRoute_Example;
@@ -394,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		923F9385F10746F1C4F2E16226D0D619 /* Resources */ = {
+		C7AD1204BD21AD0F06B2B1BE305928D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,24 +400,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1594CA836F45E3D89C51DA4EDB308A38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				646E3A6B7CF11C75B612962C9273DFAD /* AAPLCustomPresentationController.m in Sources */,
-				78D1A97CCAF60993EDC120CBCD04CF46 /* NSString+UILink.m in Sources */,
-				0146E6F5B16C9E5AC69B6A55EF9CAB2F /* ReplaceMe.m in Sources */,
-				362D5F16E5AC2856D0A3AF5169F0E7B5 /* UIViewController+Marked.m in Sources */,
-				8165EFE3D467A219AC84CA35F9593F6C /* WMRoute.m in Sources */,
-				0E6F089C1F463F78C75B04A00504855F /* WMRoute-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1DEC8C960D76C0E1917C827BD63EFAC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E731D116A5CF9A5BFD399E32C8734AF9 /* Pods-WMRoute_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925319258D230BBEB40C77AEE84AB64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDB6900AD3184C2BF05F5D2C1F73E9C /* AAPLCustomPresentationController.m in Sources */,
+				237E2A70F6D4FB110138216FEB99B73D /* NSString+UILink.m in Sources */,
+				2F61A1F85997813F3333FF681B806856 /* ReplaceMe.m in Sources */,
+				72130FC0ECB597E58E812AB8C019A257 /* UIViewController+Marked.m in Sources */,
+				7F0F84909DF658FACF06907114A9CA86 /* WMRoute.m in Sources */,
+				984722DBF2D3A36DB6C147A0D4C6AE5D /* WMRoute-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,17 +432,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB6BE4630372EB73799003CC85AC202D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WMRoute;
-			target = 32F567C1E0412B570AE4D8FD740C13DF /* WMRoute */;
-			targetProxy = C065EB0AF956343C0D8D24834EFBBC65 /* PBXContainerItemProxy */;
-		};
-		FDA3F5AAA0434125CAF1A17D5DDABA7C /* PBXTargetDependency */ = {
+		5D96E828BB9662D34D373B758395C89D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WMRoute_Example";
 			target = 7220805EB332F8711ABBAC3472F23DE6 /* Pods-WMRoute_Example */;
-			targetProxy = A834D40239491C276C5C0883A27EE478 /* PBXContainerItemProxy */;
+			targetProxy = 0C973DF08C8CBA9B6F3FC3695D3D3D17 /* PBXContainerItemProxy */;
+		};
+		E867590151AAF6032379A71C2BC3C8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMRoute;
+			target = 32F567C1E0412B570AE4D8FD740C13DF /* WMRoute */;
+			targetProxy = 432F1B6E816C5B06A026F52A89649AF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -614,9 +610,39 @@
 			};
 			name = Debug;
 		};
-		C6A374BAA43DF0189B24B8205DD27B17 /* Release */ = {
+		2692192B1D09B71A83100135B4AD8616 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A91FC4EB3B454FCAF177C73A4C34EBA /* WMRoute.release.xcconfig */;
+			baseConfigurationReference = 3132832E5C1CF679D296DEEE196F6C24 /* WMRoute.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMRoute/WMRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMRoute/WMRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WMRoute/WMRoute.modulemap";
+				PRODUCT_MODULE_NAME = WMRoute;
+				PRODUCT_NAME = WMRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E1C37216D05A082FABA281F59047735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18349C21C8C951BEBEE38109182753D5 /* WMRoute.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -740,36 +766,6 @@
 			};
 			name = Release;
 		};
-		FAA09A3498194870159DF872FEB6691F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0286A131E8C89587F221249CC1A2B2ED /* WMRoute.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WMRoute/WMRoute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WMRoute/WMRoute-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WMRoute/WMRoute.modulemap";
-				PRODUCT_MODULE_NAME = WMRoute;
-				PRODUCT_NAME = WMRoute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,11 +778,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D09B5E0F9F29ECBCA63A245309DBFA9 /* Build configuration list for PBXNativeTarget "WMRoute" */ = {
+		56ED22CBCC1D6012B90E662359794ACC /* Build configuration list for PBXNativeTarget "WMRoute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAA09A3498194870159DF872FEB6691F /* Debug */,
-				C6A374BAA43DF0189B24B8205DD27B17 /* Release */,
+				2692192B1D09B71A83100135B4AD8616 /* Debug */,
+				2E1C37216D05A082FABA281F59047735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,6 @@
 #import "NSString+UILink.h"
 #import "UIViewController+Marked.h"
 #import "WMRoute.h"
-#import "WMRouteUrlDefine.h"
 
 FOUNDATION_EXPORT double WMRouteVersionNumber;
 FOUNDATION_EXPORT const unsigned char WMRouteVersionString[];
