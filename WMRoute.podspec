@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMRoute'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WMRoute.'
+  s.version          = '1.0'
+  s.summary          = '一个高效，灵活，简单的iOS跳转路由'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

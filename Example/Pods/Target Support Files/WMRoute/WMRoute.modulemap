@@ -1,0 +1,6 @@
+framework module WMRoute {
+  umbrella header "WMRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}
