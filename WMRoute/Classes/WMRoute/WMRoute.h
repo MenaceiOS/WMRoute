@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "WMRouteUrlDefine.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
