@@ -9,11 +9,17 @@ WMRoute
 已经有很多款不错的 Route 了，但都不是很满足需求。
 有的不够高效，有的需要进行注册。很繁琐，于是就有了 WMRoute。
 
-安装
-=========
 手动安装
 =
 下载 Demo，把 WMRoute 文件拷贝到工程即可
+
+cocoapods安装
+===
+Podfile 文件 添加 
+```Object-C
+source 'https://github.com/MenaceiOS/WMSpecs.git'，
+pod 'WMRoute'
+```
 
 使用教程
 ========
