@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMRoute'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = '一个高效，灵活，简单的iOS跳转路由'
 
 # This description is used to generate tags and improve search results.
